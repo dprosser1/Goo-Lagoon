@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Data and logs
+*.log
+*.csv
+*.json
+!datamodel.py
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Zip archives (keep the round-1 data bottle)
+# round-1-island-data-bottle.zip  # uncomment to ignore
